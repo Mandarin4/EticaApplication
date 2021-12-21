@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textTitleMainAct"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/color_btn_text"
+        android:textSize="40sp"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_below="@+id/textTitle"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="textBtnMainAct1OnClick"
+            android:padding="10dp"
+            android:text="@string/textMainAct1"
+            android:textColor="@color/color_btn_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="textBtnMainAct2OnClick"
+            android:padding="10dp"
+            android:text="@string/textMainAct2"
+            android:textColor="@color/color_btn_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="textBtnMainAct3OnClick"
+            android:padding="10dp"
+            android:text="@string/textMainAct3"
+            android:textColor="@color/color_btn_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="textBtnMainAct4OnClick"
+            android:padding="10dp"
+            android:text="@string/textMainAct4"
+            android:textColor="@color/color_btn_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="textBtnMainAct5OnClick"
+            android:padding="10dp"
+            android:text="@string/textMainAct5"
+            android:textColor="@color/color_btn_text" />
+
+    </LinearLayout>
+
+</RelativeLayout>
